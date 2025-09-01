@@ -36,19 +36,19 @@ $ cargo run
 [dependencies]
 
 rand="0.9.2"
-```
 
-```bash
-$ cargo build
-   Compiling libc v0.2.175
-   Compiling cfg-if v1.0.3
-   Compiling zerocopy v0.8.26
-   Compiling getrandom v0.3.3
-   Compiling rand_core v0.9.3
-   Compiling ppv-lite86 v0.2.21
-   Compiling rand_chacha v0.9.0
-   Compiling rand v0.9.2
-   Compiling guessing_game v0.1.0 (/home/aaaaa/rust/guessing_game)
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.59s
-```
-# page_28
+# Настройка VS Code с rust-analyzer
+
+Обязательные расширения:
+
+rust-analyzer - основное расширение для Rust
+
+Even Better TOML - подсветка синтаксиса для Cargo.toml
+
+Crates - автодополнение версий crates в Cargo.toml
+
+Дополнительные расширения:
+
+Error Lens - визуальное выделение ошибок
+
+CodeLLDB - отладчик для Rust
